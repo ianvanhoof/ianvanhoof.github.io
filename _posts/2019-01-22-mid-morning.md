@@ -7,7 +7,7 @@ category:   [dev]
 
 ---
 
-## First Canvas
+## Moar Canvas
 
 I am struggling to gain traction on the Canvas Redesign Project because I am constantly getting side tracked into more important endeavors. I am doing my best to get the vertical rhythm right. This requires a whole bunch of adjusting of line heights, font sizes, margins, and padding. The work itself gets tweak-y, but I have my numbers in place so it is now just a matter of forcing elements into place. 
 
