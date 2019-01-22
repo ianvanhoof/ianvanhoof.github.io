@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ian Vanhoof's Website</title>
+        <link rel="stylesheet" href="https://use.typekit.net/mvy3ueg.css">
+        <link rel="stylesheet" href="/assets/main.css">
+    </head>
+    <body>
+        <header id="header">
+            {% if page.button == 'about-me' %}
+                <h1 id="main_header">C<span class="header_anim">ontemplation</span> v<span class="header_anim">ia</span> C<span class="header_anim">offee</span></h1>
+            {% elsif page.button == 'home' %}
+                <h1>About Ian Vanhoof</h1>
+            {% endif %}
+            
+                <div id="dynamic-button-container">
+                    
+           
+                    {% if page.button == 'about-me' %}
+                      <a href="about-me.html" class="dynamic-button">about me&hellip;</a>
+                    {% elsif page.button == 'home' %}
+                        <a href="index.html" class="dynamic-button">home&hellip;</a>
+                    {% endif %}
+                    
+
+                </div>
+                
+            
+        </header><!-- /header -->
+        <section id="description">
+            
+        </section>
+        <section id="wrapper">
+            {{ content }}
+        </section><!-- / wrapper -->
+        <footer>
+            <p>
+                All rights reserved. Copyright Ian Vanhoof 2019
+            </p>
+        </footer>
+    </body>
+</html>

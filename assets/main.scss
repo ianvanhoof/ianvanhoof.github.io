@@ -1,0 +1,160 @@
+---
+---
+
+html {
+    font-size: 16px;
+}
+body{
+    margin:0;
+    background-color:#F6FCFF;
+    background-image: url("..//assets/background_stripes.svg");
+    background-origin: content-box;
+    background-position-x:0 150px; 
+    background-repeat: no-repeat;
+}
+body,p,li{
+   font-family: monotype-grotesque, sans-serif;
+   font-weight: 400;
+
+}
+// #header_anim{
+//     color: white;
+// }
+@-webkit-keyframes FADE-TO-BLACK {
+  0%   { color: white; }
+  100% { color: black; }
+}
+@-moz-keyframes FADE-TO-BLACK {
+  0%   { color: white; }
+  100% { color: black; }
+}
+@-o-keyframes FADE-TO-BLACK {
+  0%   { color: white; }
+  100% { color: black; }
+}
+@keyframes FADE-TO-BLACK {
+  0%   { color: white; }
+  100% { color: black; }
+}
+.header_anim {
+  -webkit-animation: FADE-TO-BLACK 25s; /* Safari 4+ */
+  -moz-animation:    FADE-TO-BLACK 25s; /* Fx 5+ */
+  -o-animation:      FADE-TO-BLACK 25s; /* Opera 12+ */
+  animation:         FADE-TO-BLACK 25s; /* IE 10+, Fx 29+ */
+}
+#first-post{
+    border: 1px solid red;
+}
+.post-front-page{
+    padding:1rem;
+}
+#wrapper{
+
+    background-color: rgba(255, 255, 255, .7); 
+    max-width:900px;
+}
+#wrapper>article>section>p{
+    
+    padding: 0 0 0 2rem;
+    margin: 0;
+    display:inline;
+}
+.post-header{
+    font-size:1.8103rem;
+    font-weight:300;
+    font-style: italic;
+}
+
+p{
+    font-size:1.1rem;
+    text-indent: 3rem;
+    padding:0;
+}
+#wrapper>article>h1{
+    font-size:1.8103rem;
+    margin-bottom: .5rem;
+}
+#wrapper{
+    width:61.803%;
+    margin-left: 3rem;
+}
+.post-meta{
+    text-indent:0;
+
+    margin: 0 0 1rem 0;
+    padding:0;
+}   
+h1{
+    font-size:3.5rem;
+    
+}
+#header{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    left:0;
+}
+#header>h1{
+    font-family: monotype-grotesque-condensed, sans-serif;
+    width:auto;
+    background-color: red;
+    padding:0 1rem;
+}
+#dynamic-button-container{
+    display:flex;
+    flex-flow: column nowrap;
+    align-items:flex-start;
+    margin: 4.45rem 1rem 0 0;
+}
+.dynamic-button{
+    border: 1px solid black;
+    color: red;
+    background-color: rgba(255, 255, 255, .7);
+    padding: .25rem;
+    height:1.5rem;
+    border-radius: 1px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: monotype-grotesque, sans-serif;
+    font-weight: 300;
+}
+.post-meta{
+    font-size:.85rem;
+    font-weight:300;
+}
+#content-area{
+    width: 61.803%;
+    margin: 0;
+    padding: 0;
+}
+
+#about-me-page h2{
+    font-size:2.5rem;
+    margin:0 0 .25rem 0;
+}
+.recent_work_subheader{
+    text-indent:1.5rem;
+    font-size:2rem;
+    margin:0 0 1rem 0;
+}
+#about-me-page h4{
+    font-size:1.8rem;
+    text-indent:3rem;
+    font-style: italic;
+    margin:0;
+}
+#about-me-page p{text-indent:0!important;margin-left:3rem;}
+.job_title_block{
+
+    margin-left:1.5rem;
+}
+.black_slash{
+    background-color: black;
+    color: white;
+}
+.red_slash{
+    // background-color:red;
+    // color:white;
+    font-size:2rem;
+    padding:0 1rem 0 .25rem;
+}
