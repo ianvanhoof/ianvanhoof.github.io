@@ -157,6 +157,10 @@ body,p,li{
     background-color: rgba(255, 255, 255, .7); 
     max-width:900px;
 }
+#wrapper>article>h1{
+    font-size:1.8103rem;
+    margin-bottom: .5rem;
+}
 #wrapper>article>section>p{
     
     padding: 0 0 0 2rem;
@@ -174,10 +178,7 @@ p{
     text-indent: 3rem;
     padding:0;
 }
-#wrapper>article>h1{
-    font-size:1.8103rem;
-    margin-bottom: .5rem;
-}
+
 
 .post-meta{
     text-indent:0;
