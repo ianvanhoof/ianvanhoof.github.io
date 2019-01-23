@@ -139,10 +139,10 @@ body,p,li{
   100% { color: black; }
 }
 .header_anim {
-  -webkit-animation: FADE-TO-BLACK 25s; /* Safari 4+ */
-  -moz-animation:    FADE-TO-BLACK 25s; /* Fx 5+ */
-  -o-animation:      FADE-TO-BLACK 25s; /* Opera 12+ */
-  animation:         FADE-TO-BLACK 25s; /* IE 10+, Fx 29+ */
+  -webkit-animation: FADE-TO-BLACK 2.5s; /* Safari 4+ */
+  -moz-animation:    FADE-TO-BLACK 2.5s; /* Fx 5+ */
+  -o-animation:      FADE-TO-BLACK 2.5s; /* Opera 12+ */
+  animation:         FADE-TO-BLACK 2.5s; /* IE 10+, Fx 29+ */
 }
 #first-post{
     border: 1px solid red;
@@ -197,7 +197,7 @@ h1{
     left:0;
 }
 #header>h1{
-    font-family: monotype-grotesque-condensed, sans-serif;
+    font-family: "Forza-Light","Forza Light", monotype-grotesque-condensed, sans-serif;
     width:auto;
     background-color: red;
     padding:0 1rem;
