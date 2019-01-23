@@ -115,7 +115,8 @@ body{
     background-repeat: no-repeat;
 }
 body,p,li{
-   font-family: monotype-grotesque, sans-serif;
+   font-family: "Forza A", "Forza B", sans-serif;
+   font-style:normal;
    font-weight: 400;
 
 }
@@ -151,7 +152,8 @@ body,p,li{
     padding:1rem;
 }
 #wrapper{
-
+    width:98%;
+    margin-left:1.8%;
     background-color: rgba(255, 255, 255, .7); 
     max-width:900px;
 }
@@ -176,10 +178,7 @@ p{
     font-size:1.8103rem;
     margin-bottom: .5rem;
 }
-#wrapper{
-    width:100%;
-    margin-left: 3rem;
-}
+
 .post-meta{
     text-indent:0;
 
@@ -197,7 +196,9 @@ h1{
     left:0;
 }
 #header>h1{
-    font-family: "Forza-Light","Forza Light", monotype-grotesque-condensed, sans-serif;
+    font-family: "Forza A" ,"Forza B",monotype-grotesque-condensed, sans-serif;
+    font-style:normal;
+    font-weight: 300;
     width:auto;
     background-color: red;
     padding:0 1rem;
@@ -217,8 +218,12 @@ h1{
     border-radius: 1px;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: monotype-grotesque, sans-serif;
+    font-family: "Forza A", "Forza B", sans-serif;
     font-weight: 300;
+    font-style:normal;
+}
+.post-link{
+    font-style: italic
 }
 .post-meta{
     font-size:.85rem;
