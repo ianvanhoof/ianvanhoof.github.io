@@ -1,5 +1,5 @@
 ---
-
+layout: post
 date:
 title:
 category:[coffee,dev,design,motorcycle,reflections,typography,type_1]

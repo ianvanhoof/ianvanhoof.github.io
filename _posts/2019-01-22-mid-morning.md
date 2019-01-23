@@ -1,5 +1,7 @@
 ---
 
+layout: post
+
 date: 2019-01-22 09:03:21 -0500
 title: Canvas Interuptus
 

@@ -1,5 +1,7 @@
 ---
 
+layout: post
+
 date: 2019-01-11 11:14:36 -0500
 title: today is a work day. 
 category: [reflections]

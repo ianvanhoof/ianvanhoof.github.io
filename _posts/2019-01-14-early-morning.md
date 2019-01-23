@@ -1,5 +1,5 @@
 ---
-
+layout: post
 date: 2019-01-14 05:44:34 -0500
 
 category: [motorcycle]
