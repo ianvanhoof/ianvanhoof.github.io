@@ -1,43 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Ian Vanhoof's Website</title>
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="https://use.typekit.net/mvy3ueg.css">
-        <link rel="stylesheet" href="/assets/main.css">
+        <link rel="stylesheet" href="/assets/main-ian.css">
     </head>
     <body>
+        <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
         <header id="header">
             {% if page.button == 'about-me' %}
                 <h1 id="main_header">C<span class="header_anim">ontemplation</span> v<span class="header_anim">ia</span> C<span class="header_anim">offee</span></h1>
-            {% elsif page.button == 'home' %}
+                {% elsif page.button == 'home' %}
                 <h1>About Ian Vanhoof</h1>
             {% endif %}
             
-                <div id="dynamic-button-container">
-                    
-           
-                    {% if page.button == 'about-me' %}
-                      <a href="about-me.html" class="dynamic-button">about me&hellip;</a>
-                    {% elsif page.button == 'home' %}
-                        <a href="index.html" class="dynamic-button">home&hellip;</a>
-                    {% endif %}
-                    
-
-                </div>
+            <div id="dynamic-button-container">
                 
+                
+                {% if page.button == 'about-me' %}
+                    <a href="about-me.html" class="dynamic-button">about me&hellip;</a>
+                    {% elsif page.button == 'home' %}
+                    <a href="index.html" class="dynamic-button">home&hellip;</a>
+                {% endif %}
+                
+            </div>
             
-        </header><!-- /header -->
-        <section id="description">
             
-        </section>
-        <section id="wrapper">
-            {{ content }}
-        </section><!-- / wrapper -->
-        <footer>
-            <p>
-                All rights reserved. Copyright Ian Vanhoof 2019
-            </p>
-        </footer>
-    </body>
-</html>
+            </header><!-- /header -->
+            <section id="description">
+                
+            </section>
+            <section id="wrapper">
+                {{ content }}
+                </section><!-- / wrapper -->
+                <footer>
+                    <p>
+                        All rights reserved. Copyright Ian Vanhoof 2019
+                    </p>
+                </footer>
+            </body>
+        </html>

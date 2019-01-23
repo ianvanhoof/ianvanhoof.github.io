@@ -13,7 +13,7 @@ This morning was so nice. I got to wake up, and just have a nice cup of cold bre
 
 I can't bring myself to call it a pot of cold brew. I don't know why. It's a pitcher of cold brew to me. 
 
-Woke me right up for the day. 
+Woke me right up for the day. So nice having coffee before you make your morning coffee. Which happened to be my normal Chemex pour over. So tasty!
 
 When I got to my desk I was more than ready to work on that python problem I was having yesterday. I got that fixed by working in a different directory than my co-workers while git is involved. This left me open to fix the issue my python was having with yet another out lier course we had found&mdash;HUM2211.
 
