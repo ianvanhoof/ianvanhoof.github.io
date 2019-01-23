@@ -115,10 +115,20 @@ body{
     background-repeat: no-repeat;
 }
 body,p,li{
-   font-family: "Ideal Sans SSm A", "Ideal Sans SSm B", sans-serif;
+   font-family: "Gotham SSm A", "Gotham SSm B",sans-serif;
    font-style:normal;
    font-weight: 400;
 
+}
+P em,p i{
+    font-family: "Gotham SSm A", "Gotham SSm B",sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+p strong,p b{
+    font-family: "Gotham SSm A", "Gotham SSm B",sans-serif;
+font-style: normal;
+font-weight: 700;
 }
 // #header_anim{
 //     color: white;
@@ -147,6 +157,11 @@ body,p,li{
 }
 #first-post{
     border: 1px solid red;
+    padding-top: 0;
+}
+#first-post .front-page-heading{
+    margin-top: 0;
+    padding-top:1.25rem;
 }
 .post-front-page{
     padding:1rem;
@@ -197,12 +212,13 @@ h1{
     left:0;
 }
 #header>h1{
-    font-family: "Forza A" ,"Forza B",monotype-grotesque-condensed, sans-serif;
+    font-family: "Forza A" ,"Forza B",sans-serif;
     font-style: light;
     font-weight: 300;
+    line-height:.8;
     width:auto;
     background-color: red;
-    padding:0 1rem;
+    padding: 1rem;
 }
 #dynamic-button-container{
     display:flex;

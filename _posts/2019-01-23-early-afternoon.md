@@ -10,9 +10,9 @@ category: [dev,reflections,typography]
 
 ### <em>Firstly</em>:&ensp;Typography
 
-I sometimes get excited and just do things. I haven't been really able to use [Hoefler & Co. typography](https://www.typography.com) since I was doing print. The jobs/projects/shops I worked on always used Adobe, and so did I. Especially when Adobe announced the new changes to Adobe web fonts. 
+I sometimes get excited and just do things. I haven't been able to use [Hoefler & Co. typography](https://www.typography.com) for many years. Since I did print. The jobs/projects/shops I worked on always used Adobe, and so did I. Especially when Adobe announced the new changes to Adobe Typekit web fonts. 
 
-Much to my surprise this morning I read about [Hoefler & Co. elevating their web font platform](https://www.typography.com/webfonts/). They expanded to offer every single font in their collection via their cloud service. I am excited to use "new to me" typefaces on the web. I just had to grab that one year subscription to see how the service stacks up to Adobe's. We will see. 
+Much to my surprise&mdash;this morning I read about [Hoefler & Co. elevating their web font platform](https://www.typography.com/webfonts/). They started by exposing their entire font library to the cloud service. I am SO EXCITED to use "<em>new to me</em>" typefaces on the web. I just had to grab that one year subscription to see how the service stacks up to Adobe's. We will see. 
 
 
 ### <em>Secondly</em>:&ensp;Interesting Challenges Using Git with Dropbox
