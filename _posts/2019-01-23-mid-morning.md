@@ -17,6 +17,8 @@ I can't bring myself to call it a pot of cold brew. I don't know why. It's a pit
 
 Woke me right up for the day. So nice having coffee before you make your morning coffee. Which happened to be my normal Chemex pour over. So tasty!
 
-When I got to my desk I was more than ready to work on that python problem I was having yesterday. I got that fixed by working in a different directory than my co-workers while git is involved. This left me open to fix the issue my python was having with yet another out lier course we had found&mdash;HUM2211.
+## I'm Ready! I'm Ready! I'm Ready!
+
+There is plenty of caffeine in cold brew. When I got to my desk I was more than ready to work on that python problem I was having yesterday. I got that fixed by working in a different directory than my co-workers while git is involved. This left me open to fix the issue my python was having with yet another out lier course we had found&mdash;HUM2211.
 
 For some reason the HTML files weren't rendering in that one course. The issue was a ANSI encoded character in one of the attribute values. One day, soon, I would love to update all this python to 3+ instead of 2.7. It shouldn't too hard, but it will take time to test everything. From what I have read that would alleviate many of the problems I am having with encoding/decoding. We will see. 
