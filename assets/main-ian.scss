@@ -118,7 +118,7 @@ body,p,li{
    font-family: "Gotham SSm A", "Gotham SSm B",sans-serif;
    font-style:normal;
    font-weight: 400;
-   letter-spacing: .002em;
+   letter-spacing: -.0625rem;
 
 }
 P em,p i{
@@ -131,30 +131,29 @@ p strong,p b{
 font-style: normal;
 font-weight: 700;
 }
-// #header_anim{
-//     color: white;
-// }
+
 @-webkit-keyframes FADE-TO-BLACK {
-  0%   { color: white; }
-  100% { color: black; }
+  0%   { color: white;}
+  100% { color: black;}
 }
 @-moz-keyframes FADE-TO-BLACK {
-  0%   { color: white; }
-  100% { color: black; }
+  0%   { color: white;}
+  100% { color: black;}
 }
 @-o-keyframes FADE-TO-BLACK {
-  0%   { color: white; }
-  100% { color: black; }
+  0%   { color: white;}
+  100% { color: black;}
 }
 @keyframes FADE-TO-BLACK {
-  0%   { color: white; }
-  100% { color: black; }
+  0%   { color: white;}
+  100% { color: black;}
 }
 .header_anim {
-  -webkit-animation: FADE-TO-BLACK 2.5s; /* Safari 4+ */
-  -moz-animation:    FADE-TO-BLACK 2.5s; /* Fx 5+ */
-  -o-animation:      FADE-TO-BLACK 2.5s; /* Opera 12+ */
-  animation:         FADE-TO-BLACK 2.5s; /* IE 10+, Fx 29+ */
+    color:black;
+  -webkit-animation: FADE-TO-BLACK 2.5s 1; /* Safari 4+ */
+  -moz-animation:    FADE-TO-BLACK 2.5s 1; /* Fx 5+ */
+  -o-animation:      FADE-TO-BLACK 2.5s 1; /* Opera 12+ */
+  animation:         FADE-TO-BLACK 2.5s 1; /* IE 10+, Fx 29+ */
 }
 #first-post{
     border: 1px solid red;
@@ -214,12 +213,15 @@ h1{
 }
 #header>h1{
     font-family: "Forza A" ,"Forza B",sans-serif;
-    font-style: light;
-    font-weight: 300;
-    line-height:.8;
-    width:auto;
+    font-style: italic;
+    font-weight: 500;
+    line-height: .8;
+    width: auto;
     background-color: red;
-    padding: 1rem;
+    padding: 2rem 3rem 2rem 0.5rem;
+    font-size: 4.5rem;
+    color: #FFF;
+    margin: 4rem 0;
 }
 #dynamic-button-container{
     display:flex;
