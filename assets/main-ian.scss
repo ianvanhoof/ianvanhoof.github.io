@@ -230,12 +230,18 @@ h1{
     margin: 4.45rem 1rem 0 0;
 }
 .dynamic-button{
-    border: 1px solid black;
-    color: red;
+    border: 2px solid red;
+    color: black;
     background-color: rgba(255, 255, 255, .7);
-    padding: .25rem;
+    padding: .25rem .5rem;
     height:1.5rem;
     border-radius: 1px;
+}
+.dynamic-button:hover{
+    border: 2px solid red;
+    color: black;
+    background-color: rgba(255, 0, 0, .7);
+    
 }
 h1,h2,h3,h4,h5,h6{
     font-family: "Forza A", "Forza B", sans-serif;
