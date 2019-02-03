@@ -16,7 +16,7 @@
         <![endif]-->
         <header id="header">
             {% if page.button == 'about-me' %}
-                <h1 id="main_header">Ian Vanhoof</h1>
+                <h1 id="main_header">Ian <span class="header_anim">Vanhoof</span></h1>
                 {% elsif page.button == 'home' %}
                 <h1>Recent Work</h1>
             {% endif %}
@@ -25,7 +25,7 @@
                 
                 
                 {% if page.button == 'about-me' %}
-                    <a href="about-me.html" class="dynamic-button">about me&hellip;</a>
+                    <a href="about-me.html" class="dynamic-button">my work&hellip;</a>
                     {% elsif page.button == 'home' %}
                     <a href="index.html" class="dynamic-button">home&hellip;</a>
                 {% endif %}
@@ -39,9 +39,15 @@
                 {{ content }}
                 </section><!-- / wrapper -->
                 <footer>
-                    <p>
+                    {% if page.button == 'about-me' %}
+                    <a href="#header" title="link to top of page"><p>back to top</p></a>
+                <p>
                         All rights reserved. Copyright Ian Vanhoof 2019
                     </p>
+                {% elsif page.button == 'home' %}
+                <a href="#header" title="link to top of page"><p>back to top</p></a>
+            {% endif %}
+                    
                 </footer>
             </body>
         </html>
