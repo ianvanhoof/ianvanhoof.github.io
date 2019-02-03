@@ -99,6 +99,8 @@ textarea {
     padding: 0.2em 0;
 }
 
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -280,6 +282,13 @@ h1,h2,h3,h4,h5,h6{
 .job_title_block{
 
     margin-left:1.5rem;
+}
+#skills_list{
+    padding-left: 2.6rem;
+}
+#skills_list li{
+    font-size: 1.1rem;
+    padding-left: .25rem;
 }
 .black_slash{
     background-color: black;
