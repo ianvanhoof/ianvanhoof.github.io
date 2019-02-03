@@ -17,6 +17,7 @@
         <header id="header">
             {% if page.button == 'about-me' %}
                 <h1 id="main_header">Ian <span class="header_anim">Vanhoof</span></h1>
+
                 {% elsif page.button == 'home' %}
                 <h1>Recent Work</h1>
             {% endif %}
@@ -35,6 +36,14 @@
             
             </header><!-- /header -->
             
+                <p>
+                    {% if page.button == 'about-me' %}
+                    <em>
+                    This is where I sometimes think out loud. 
+                    </em>
+                    {% endif %}
+                </p>
+                
             <section id="wrapper">
                 {{ content }}
                 </section><!-- / wrapper -->
