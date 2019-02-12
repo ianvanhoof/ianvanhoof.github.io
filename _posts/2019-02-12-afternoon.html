@@ -1,0 +1,22 @@
+---
+layout: post
+date: 2019-02-12 16:55:20 -0500
+title: SO much is happening right now. 
+
+---
+
+<h2>
+    Bouncing Between Languages at a Fast Pace
+</h2>
+<p>
+    The past two weeks I have been forced to bounce between a bunch of different languages and environments. When I sit here an quantify it, it give me pause. In the last two weeks alone python, jekyll, php 5 & 7, mySQL, liquid, JS, HTML,XML, imscc, SCSS, all on systems that hold content. Canvas LMS, Blackboard LMS, mySQL Db, wordpress...You name it. Jeez. 
+</p>
+<p>
+    So at my day job, I am mainly working to style LMS front-ends for the master courses we manage. Since we are transitioning between systems it has been a challenge getting the courses migrated, and redesigned to meet the needs of the new system. On top of all that we have a whole external library of reusable learning objects that we manage using jekyll on a static web server. Those need to all be re-rendered as well. 
+</p>
+<p>
+    Ideally we would have a jekyll page call seperate layouts. One layout for normal web based mobile and desktop use, and the other for inclusion in the canvas LMS. WE use Canvas Pages with embedded iFrames to access our learning obects. Understandably those embeds have different user interface needs than a normal web browsing experience. 
+</p>
+<p>
+    The problem I am having right now is the fact that jekyll is not treating relative_include correctly. I need a separate file included into two templates at once. I am doing that by making a page with YAML frontmatter that pulls in a normal layout around it. Then in the place I usually put the html I just inserted that liquid include_relative tag. That allows me to call on piece of data from two different rendered pages. Or at least that is the idea. 
+</p>
