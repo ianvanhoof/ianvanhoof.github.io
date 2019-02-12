@@ -9,14 +9,27 @@ title: SO much is happening right now.
     Bouncing Between Languages at a Fast Pace
 </h2>
 <p>
-    The past two weeks I have been forced to bounce between a bunch of different languages and environments. When I sit here an quantify it, it give me pause. In the last two weeks alone python, jekyll, php 5 & 7, mySQL, liquid, JS, HTML,XML, imscc, SCSS, all on systems that hold content. Canvas LMS, Blackboard LMS, mySQL Db, wordpress...You name it. Jeez. 
+    The past two weeks I've been forced to bounce between a bunch of different languages and environments. When I sit here and quantify it, it gives me pause. In the last two weeks alone&mdash;python, jekyll, php 5 & 7, mySQL, Liquid, JS, HTML,XML, IMSCC, SCSS, all on <em>systems</em>. Canvas LMS, Blackboard LMS, mySQL Db, wordpress...You name it. Jeez. 
 </p>
 <p>
-    So at my day job, I am mainly working to style LMS front-ends for the master courses we manage. Since we are transitioning between systems it has been a challenge getting the courses migrated, and redesigned to meet the needs of the new system. On top of all that we have a whole external library of reusable learning objects that we manage using jekyll on a static web server. Those need to all be re-rendered as well. 
+    So at my day job, we are transitioning between LMS systems, and it has been a challenge getting the courses migrated. We also have to are going through a redesign process to meet the needs of the new system. We also manage an external library of reusable learning objects using the Jekyll headless CMS on a static web server. Those need to all be re-rendered as well. 
 </p>
 <p>
-    Ideally we would have a jekyll page call seperate layouts. One layout for normal web based mobile and desktop use, and the other for inclusion in the canvas LMS. WE use Canvas Pages with embedded iFrames to access our learning obects. Understandably those embeds have different user interface needs than a normal web browsing experience. 
+    Ideally we would have a Jekyll page call multiple layouts. One layout for normal web based mobile and desktop use. The other for inclusion in the canvas LMS. WE use Canvas Pages with embedded iFrames to access our learning objects. Understandably those embeds have different user interface needs than our normal web browsing experience. 
+</p>
+<h2>
+    The Easy Way Out&hellip;
+</h2>
+<p>
+    The low bar method of getting what want, would be to generate two "post" html files. One would call the default template and render a normal index.ntml file. The other would call an "learning object" (LO) template that is purpose built to fit inside the pages we share to Canvas Commons.  
 </p>
 <p>
-    The problem I am having right now is the fact that jekyll is not treating relative_include correctly. I need a separate file included into two templates at once. I am doing that by making a page with YAML frontmatter that pulls in a normal layout around it. Then in the place I usually put the html I just inserted that liquid include_relative tag. That allows me to call on piece of data from two different rendered pages. Or at least that is the idea. 
+    I like to challenge myself, especially when it means saving time. So I would like one single data file that feeds both templates. If you read the Jekyll documentation you will find that this is possible. I could use a liquid tag called relative_include. This allows you to include an external file at render time. Simple right. I should be able to rename our existing slide set to data.html. Make two posts that each call separate layout templates, and then just insert the include with the path to the data file. 
+    It should work, but it doesn't. 
+</p>
+<p>
+    It's an actual bug on the pull request list. 
+</p>
+<p>
+Just my luck. 
 </p>
