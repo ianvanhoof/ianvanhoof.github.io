@@ -3,12 +3,15 @@
 @mixin font_family_body() {
   font-family: "Gotham SSm A", "Gotham SSm B",sans-serif;
 }
-// @mixin font_family_heading() {
-//   font-family: 'Forza A' ,'Forza B',sans-serif;
-// }
+@mixin font_family_sub_heading() {
+  font-family: 'Forza A' ,'Forza B',sans-serif;
+}
 @mixin font_family_heading() {
   font-family: 'Turbo A' ,'Turbo B',sans-serif;
 }
+// @mixin font_family_heading() {
+//   font-family: 'Nitro A' ,'Nitro B',sans-serif;
+// }
 
 /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
 
@@ -116,6 +119,7 @@ textarea {
 html {
     font-size: 16px;
 }
+
 body{
     min-height: 3000px;
     margin:0;
@@ -125,6 +129,7 @@ body{
     background-position-x:0 150px; 
     background-repeat: no-repeat;
 }
+
 body,p,li{
    @include font_family_body;
    font-style:normal;
@@ -132,6 +137,7 @@ body,p,li{
    letter-spacing: -.0625rem;
 
 }
+
 P em,p i{
     @include font_family_body;
     font-style: italic;
@@ -143,6 +149,22 @@ p strong,p b{
     font-weight: 700;
 }
 
+h1,h2,h3,h4,h5,h6{
+    @include font_family_sub_heading;
+    font-weight: 300;
+    font-style:italic;
+}
+
+h1{
+    font-size:3.5rem;
+    
+}
+.front-page-heading{
+    margin-bottom: .5rem;
+}
+h2{
+    margin: 1rem 0 .5rem 0;
+}
 @-webkit-keyframes FADE-TO-BLACK {
   0%   { color: white;}
   100% { color: black;}
@@ -161,10 +183,10 @@ p strong,p b{
 }
 .header_anim {
     color:black;
-  -webkit-animation: FADE-TO-BLACK 2.5s 1; /* Safari 4+ */
-  -moz-animation:    FADE-TO-BLACK 2.5s 1; /* Fx 5+ */
-  -o-animation:      FADE-TO-BLACK 2.5s 1; /* Opera 12+ */
-  animation:         FADE-TO-BLACK 2.5s 1; /* IE 10+, Fx 29+ */
+  -webkit-animation: FADE-TO-BLACK .6831s 1; /* Safari 4+ */
+  -moz-animation:    FADE-TO-BLACK .6831s 1; /* Fx 5+ */
+  -o-animation:      FADE-TO-BLACK .6831s 1; /* Opera 12+ */
+  animation:         FADE-TO-BLACK .6831s 1; /* IE 10+, Fx 29+ */
 }
 #first-post{
     border: 1px solid red;
@@ -212,13 +234,10 @@ p{
     margin: 0 0 1rem 0;
     padding:0;
 }   
-h1{
-    font-size:3.5rem;
-    
-}
+
 #header{
     display:flex;
-    justify-content:space-between;
+    justify-content : space-between;
     width:100%;
     left:0;
 }
@@ -233,6 +252,7 @@ h1{
     font-size: 4.5rem;
     color: #FFF;
     margin: 1.6813rem 0 0 0;
+    
 }
 #dynamic-button-container{
     display:flex;
@@ -254,11 +274,7 @@ h1{
     background-color: rgba(255, 0, 0, .7);
     
 }
-h1,h2,h3,h4,h5,h6{
-    @include font_family_heading;
-    font-weight: 400;
-    font-style:normal;
-}
+
 .post-link{
     font-style: italic
 }

@@ -1,6 +1,14 @@
 ---
 ---
-
+@mixin font_family_body() {
+  font-family: "Gotham SSm A", "Gotham SSm B",sans-serif;
+}
+@mixin font_family_sub_heading() {
+  font-family: 'Forza A' ,'Forza B',sans-serif;
+}
+@mixin font_family_heading() {
+  font-family: 'Turbo A' ,'Turbo B',sans-serif;
+}
 
 /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
 
@@ -118,19 +126,20 @@ body{
     background-repeat: no-repeat;
 }
 body,p,li{
-   font-family: "Gotham SSm A", "Gotham SSm B",sans-serif;
+   @include font_family_body;
    font-style:normal;
    font-weight: 400;
    letter-spacing: -.0625rem;
 
 }
-P em,p i{
-    font-family: "Gotham SSm A", "Gotham SSm B",sans-serif;
+
+em,i,p em,p i{
+    @include font_family_body;
     font-style: italic;
     font-weight: 400;
 }
-p strong,p b{
-    font-family: "Gotham SSm A", "Gotham SSm B",sans-serif;
+strong, b,p strong,p b{
+@include font_family_body;
 font-style: normal;
 font-weight: 700;
 }
@@ -215,7 +224,7 @@ h1{
     left:0;
 }
 #header > h1{
-    font-family: "Forza A" ,"Forza B",sans-serif;
+    @include font_family_heading;
     font-style: italic;
     font-weight: 500;
     line-height: .8;
@@ -247,7 +256,7 @@ h1{
     
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: "Forza A", "Forza B", sans-serif;
+    @include font_family_sub_heading;
     font-weight: 400;
     font-style:normal;
 }
