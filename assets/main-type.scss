@@ -224,7 +224,7 @@ h1{
 }
 #header > h1{
     @include font_family_heading;
-    font-style: italic;
+    font-style: normal;
     font-weight: 400;
     line-height: .8;
     width: auto;
