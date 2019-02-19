@@ -130,18 +130,25 @@ body{
     background-repeat: no-repeat;
 }
 
-body,p,li{
-   @include font_family_body;
-   font-style:normal;
-   font-weight: 400;
+body,li{
+   
+   
+   font-weight: 300;
    letter-spacing: -.0625rem;
 
 }
-
-P em,p i{
+p{
+    @include font_family_body;
+    font-style:normal;
+    font-size: 2rem;
+    font-weight: 300;
+    text-indent: 3rem;
+    padding:0;
+}
+p em,p i{
     @include font_family_body;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 300;
 }
 p strong,p b{
     @include font_family_body;
@@ -221,11 +228,7 @@ h2{
     font-style: italic;
 }
 
-p{
-    font-size:1.1rem;
-    text-indent: 3rem;
-    padding:0;
-}
+
 
 
 .post-meta{
@@ -254,6 +257,9 @@ p{
     margin: 1.6813rem 0 0 0;
     
 }
+.page-description{
+    font-size: 1rem;
+}
 #dynamic-button-container{
     display:flex;
     flex-flow: column nowrap;
@@ -261,6 +267,9 @@ p{
     margin: 4.45rem 1rem 0 0;
 }
 .dynamic-button{
+    @include font_family_body;
+    font-style: normal;
+    font-weight: 400;
     border: 2px solid red;
     color: black;
     background-color: rgba(255, 255, 255, .7);
@@ -435,11 +444,17 @@ p{
    Modify as content requires.
    ========================================================================== */
 
-/*
+
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
-/*}
-*/
+    #header > h1{
+    
+    background-color: red;
+    
+    
+}
+}
+
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
