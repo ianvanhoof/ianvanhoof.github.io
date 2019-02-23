@@ -168,9 +168,11 @@ h1{
 }
 .front-page-heading{
     margin-bottom: .5rem;
+    
 }
 h2{
     margin: 1rem 0 .5rem 0;
+    font-size: 3.75rem;
 }
 @-webkit-keyframes FADE-TO-BLACK {
   0%   { color: white;}
@@ -202,6 +204,7 @@ h2{
 #first-post .front-page-heading{
     margin-top: 0;
     padding-top:1.25rem;
+    font-size: 3rem;
 }
 .post-front-page{
     padding:1rem;
