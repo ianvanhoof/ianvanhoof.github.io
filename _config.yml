@@ -4,6 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This site is for me to think outload about things like design, coding the web, html, css and such.
 baseurl: ""
 url: "https://ianvanhoof.github.io" 
+permalink           : date
 
 
 # Build settings
