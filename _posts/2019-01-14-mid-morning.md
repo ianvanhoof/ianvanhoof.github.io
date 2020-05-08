@@ -4,8 +4,6 @@ layout: post
 date: 2019-01-14 07:28:49 -0500
 title: Back to Canvas, and Python
 
-category: [dev]
-
 ---
 
 ## Back to Canvas

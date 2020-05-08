@@ -3,9 +3,6 @@ layout: post
 
 title: Early Afternoon
 date: 2019-01-09 13:31:54 -0500
-category : [design,typography]
-
-
 ---
 
 ## I'm getting tired

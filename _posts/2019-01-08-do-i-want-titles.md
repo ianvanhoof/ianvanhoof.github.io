@@ -3,7 +3,6 @@
 layout: post
 title: The Next Question
 date: 2019-01-08 11:44:00 -0500
-category : [design]
 ---
 
 I am taking a look at this home page wondering if I should have titles at all. Should this be like Twitter? You know, just display the meat of each post. 

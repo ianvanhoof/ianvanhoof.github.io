@@ -2,7 +2,6 @@
 layout: post
 date: 2019-01-23 13:44:45 -0500
 title: UGH
-category: [dev,reflections,typography]
 
 ---
 

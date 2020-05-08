@@ -2,7 +2,6 @@
 layout: post
 title:  "It's the New Year..."
 date:   2019-01-07 15:09:08 -0500
-category : [reflections,design]
 ---
 You can't just sit around. 
 Keep moving. 

@@ -5,8 +5,6 @@ layout: post
 date: 2019-01-22 12:55:00 -0500
 title: Meetings
 
-category:   [dev]
-
 ---
 
 ## I have discovered an ODD bug. 

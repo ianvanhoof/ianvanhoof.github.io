@@ -4,7 +4,6 @@ layout: post
 
 title: Work Life Challenges
 date: 2019-01-09 16:28:01 -0500
-category : [reflections,design]
 ---
 
 While waiting for a client to get back to me&mdash;I started working on this website again, not the posts, but the design. I like the tightess, and grayness if you squint your eyes, of the in-line paragraphs on the front page. 

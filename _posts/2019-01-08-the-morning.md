@@ -3,7 +3,6 @@ layout: post
 
 title: My Day Starts in the Morning
 date: 2019-01-08 06:32:08 -0500
-category : [reflections]
 ---
 
 ## It's 6:30am:

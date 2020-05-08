@@ -4,7 +4,6 @@ layout: post
 
 title: Early Morning
 date: 2019-01-09 06:42:43 -0500
-categories :  [coffee]
 
 ---
 
