@@ -1,0 +1,28 @@
+---
+title: Getting Windows Back
+layout: post
+---
+<h2>
+    Getting Windows Back
+</h2>
+<p>
+    This weekend I casually updated Ruby on Rails on my MS Surface pro. I then tried to run Jekyll so I could update all the things I STILL want to work on here, and it blew up in my face with all kinds of GEM errors.
+</p>
+<p>
+It wanted me to run a specific version of WDM just for windows, and when I put that line into my local GemFile, it blew up again.  
+
+Call me flummoxed at that point. I clapped the laptop closed and went about relaxing for a bit. </p>
+<p>
+That is when I started thinking about how long I've had this laptop. It's been at least three years. I have read online that many people have issues with Gem versions being out of sync, so I went back to that infernal machine and checked my Ruby Version. On Windows Ruby gets installed right at the root of C: drive, so it quickly became apparent that I have six different updated versions on my drive. All installed in the same directory. All were trying to use or install a different version of the MSDEV environment. 
+</p>
+<p>
+My computer was running slowly anyway. So I did what any self-respecting former IT folk would do, and I wiped the machine. Little did I know that the MS Surface didn't like being wiped. The MS Surface prefers that you use the Windows Reset utility in settings. In my mind, that is not a real wipe. I want HD formatting and partitioning—zeros writing over data. I want an actual wipe, not just an OS swap. </p>
+<p>
+As it turns out, it wasn't that hard of a task. Microsoft has a resource that you can download right from the surface product page. It is a utility that will make a bootable USB stick with a little program that wipes the drive for you. Boom, download, install, reboot, wipe, record scratch!</p>
+<p>
+That little utility left my drive with one partition on it that the Windows install disk would not recognize as a boot disk. So when I booted from the Windows 10 install USB, then tried to partition the drive, it spewed disk errors. When I dropped to the CLI, good old Diskpart showed me one big MBR partition. One clean command later, I had deleted that partition and left just a clean formatted disk. Doing that allowed the Windows disk to take over that task, and partition the disk however it wanted. That worked, and so did the clean install of Ruby.</p>
+<p> 
+My Jekyll install works again, and I can post articles from my surface once again. You are looking at the result.  
+Now I can concentrate on cleaning up all this code and getting to work on Protozoa again. I have so many ideas. 
+:-)
+</p>
