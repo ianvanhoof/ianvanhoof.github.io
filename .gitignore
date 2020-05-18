@@ -3,4 +3,5 @@ _drafts
 .sass-cache
 .jekyll-metadata
 .DS_Store
-.lock
+GemFile
+GemFile.lock
