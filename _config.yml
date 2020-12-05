@@ -17,7 +17,8 @@ plugins_dir:
 exclude:
    - Gemfile
    - Gemfile.lock
-   - /post_template.md
+   - post_template.md
+   - background_stripes_black.ai
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
