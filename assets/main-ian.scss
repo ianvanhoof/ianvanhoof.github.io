@@ -1,13 +1,13 @@
 ---
 ---
 @mixin font_family_body() {
-  font-family: "Gotham SSm A", "Gotham SSm B",sans-serif;
+  font-family: 'Ringside Regular SSm A', 'Ringside Regular SSm B',sans-serif;
 }
 @mixin font_family_sub_heading() {
-  font-family: 'Forza A' ,'Forza B',sans-serif;
+  font-family: 'Ringside Regular SSm A', 'Ringside Regular SSm B',sans-serif;
 }
 @mixin font_family_heading() {
-  font-family: 'Turbo A' ,'Turbo B',sans-serif;
+  font-family: 'Sagittarius A', 'Sagittarius B',sans-serif;
 }
 // @mixin font_family_heading() {
 //   font-family: 'Nitro A' ,'Nitro B',sans-serif;
@@ -227,7 +227,7 @@ h4{
 #wrapper{
     width:98%;
     margin-left:1.8%;
-    background-color: rgba(255, 255, 255, .7); 
+    background-color: rgba(242, 244, 249, .7); 
     max-width:900px;
 }
 #wrapper>article>h1{
