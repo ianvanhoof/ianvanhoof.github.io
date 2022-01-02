@@ -237,12 +237,15 @@ h4{
 #wrapper>article>h1{
     font-size:1.8103rem;
     margin-bottom: 0;
+    margin-top:2.5rem;
     padding-bottom:0;
 
 }
 #wrapper>article>section>h1{
     margin-top:-1.9rem;
     padding-top: 0;
+    margin-bottom: 2.5rem;
+
 
 }
 #wrapper>article>section>p{
@@ -288,6 +291,8 @@ h4{
 }
 .page-description{
     font-size: 1rem;
+    margin-bottom:2.5rem;
+    padding-left:0;
 }
 #dynamic-button-container{
     display:flex;
@@ -318,8 +323,8 @@ h4{
 .post-link{
     font-style: italic;
     font-family: "Ringside Regular SSm A", "Ringside Regular SSm B";
-font-style: normal;
-font-weight: 300;
+    font-style: normal;
+    font-weight: 300;
 
 }
 .post-meta{
