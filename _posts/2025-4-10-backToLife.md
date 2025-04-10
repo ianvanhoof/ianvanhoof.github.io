@@ -15,3 +15,5 @@ These Lian Li cases really are lux, and kinda crazy. I have never mounted the vi
 I did not realize how much it would take to get used to Windows 11. There seems to be two start menus now, which is odd. And I keep getting a .dll error that I can't seem to shake, and that's ok for now. I also forgot how annoying it is to have Norton AntiVirus install utility, sneaking in with the motherboard utility that is a must to have.   
 
 Now, I need to get my design tools up and running. I will likely have to make some concessions because they don't have a PC version of xScope. 
+
+update: It's nice having my coding setup rigged up again. This feels right. I think to keep a daily schedule, without actually having one, I will use these posts to get me going each morning. 
