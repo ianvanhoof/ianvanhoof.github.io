@@ -19,6 +19,8 @@ exclude:
    - Gemfile.lock
    - post_template.md
    - background_stripes_black.ai
+   - markdown_syntax.md
+   - scratch.html
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
