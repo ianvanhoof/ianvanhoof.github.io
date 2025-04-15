@@ -3,9 +3,7 @@ title: The Lawn Won't Mow Itself
 layout: post
 ---
 
-# The Lawn Won't Mow Itself
-
-## OR Taxes take priority over the lawn
+# The Lawn Won't Mow Itself, but Taxes Take Priority Over the Lawn
 
 Unfortunately, I had to pay my taxes yesterday. Great News, I got a refund this year, and it didn't even take me that long. Anyway, I planned to mow my lawn yesterday until I remembered what day it was. So, I deferred that task until today. Hopefully, this weather holds. 
 
