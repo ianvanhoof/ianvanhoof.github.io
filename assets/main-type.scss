@@ -149,7 +149,7 @@ p strong,p b{
     font-weight: 700;
 }
 
-h1,h2,h3,h4,h5,h6{
+h2,h3,h4,h5,h6{
     @include font_family_sub_heading;
     font-weight: 300;
     font-style:italic;
@@ -157,6 +157,8 @@ h1,h2,h3,h4,h5,h6{
 
 h1{
     font-size:3.5rem;
+    font-weight: 700;
+    margin: 1.5rem 0;
     
 }
 .front-page-heading{
@@ -211,7 +213,7 @@ h2{
 }
 #wrapper>article>section>p{
     
-    padding: 2rem 0 0 2rem;
+    padding: 0 0 2rem 1rem;
     margin: 0;
     // display:inline;
 }
@@ -223,7 +225,7 @@ h2{
 
 p{
     font-size:1.1rem;
-    text-indent: 3rem;
+    text-indent: 1.3rem;
     padding:0;
 }
 
