@@ -3,7 +3,7 @@ title: Sitting in this Feeling
 layout: post
 ---
 
-# Sitting in This Feeling
+## Sitting in This Feeling
 
 I am uncomfortable. I can't seem to fully relax. I know this feeling is caused by the fact that I got laid off from my job, and in these times of economic uncertainty, this is not the best timing. 
 
@@ -12,3 +12,8 @@ In my mind, I know that events such as these can cause irrational anxiety and fe
 
 
 I am not a fan of totally positive thinking. Thinking positively has its place, but it can mask certain emotional energies that one can and should take advantage of. I am harnessing this uncomfortable energy to land a new job. 
+
+
+## Getting Hired Again
+
+I finally have my resume where I want it in terms of words; now I have to improve the layout and insert that improved copy to my LinkedIn profile. 
