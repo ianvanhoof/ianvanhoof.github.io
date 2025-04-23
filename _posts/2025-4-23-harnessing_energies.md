@@ -3,7 +3,7 @@ title: Sitting in this Feeling
 layout: post
 ---
 
-## Sitting in This Feeling
+# Sitting in This Feeling
 
 I am uncomfortable. I can't seem to fully relax. I know this feeling is caused by the fact that I got laid off from my job, and in these times of economic uncertainty, this is not the best timing. 
 
