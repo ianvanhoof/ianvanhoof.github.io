@@ -6,3 +6,4 @@ _drafts
 .DS_Store
 GemFile
 GemFile.lock
+*.afdesign
