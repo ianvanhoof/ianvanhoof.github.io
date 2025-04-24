@@ -60,3 +60,7 @@ They have free and paid tiers, but I have never had to use the paid version. Jus
 ### [OBS Studio](https://obsproject.com/)
 
 This is what I used before I found SnagIt. It is entirely open source free software. 
+
+### My Final Choices
+
+I ended up with the Affinity Suite of tools, along with Synfig Studio for motion graphics and Davinci for Video Editing.
