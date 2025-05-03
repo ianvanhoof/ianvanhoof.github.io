@@ -1,13 +1,14 @@
 ---
-title: Music is BACK
+title: My Music is BACK
 layout: post
 ---
 
 
 
-# Music is BACK!
+# My Music is BACK!
 
-My music Collection has been restored. All 376 Gigs of music I have collected and curated throughout the years in high-quality digital. 
+My music collection has been restored. 
+All 376 Gigs of music I have collected and curated throughout the years in high-quality digital. 
 
 
 It has been almost 4 years since I last had this collection online and accessible. Due to the collection size, I have struggled to keep it on a machine through the years. But now, with this new huge SSD, it isn't an issue. I had the collection on a local network shared server and used Plex for a long time, but that soon got unwieldy on my network connection. 
