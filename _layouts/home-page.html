@@ -7,7 +7,11 @@
         <!-- <link rel="manifest" href="site.webmanifest"> -->
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7160476/6996012/css/fonts.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="/assets/main-ian.css">
     </head>
     <body>
@@ -16,12 +20,7 @@
         <![endif]-->
         <header id="header">
             {% if page.button == 'about-me' %}
-                <h1 id="main_header">
-                    Ian
-                    <span class="header_anim">
-                        Vanhoof
-                    </span>
-                </h1>
+                <h1 id="main_header">Ian <span class="header_anim">Vanhoof</span></h1>
 
                 {% elsif page.button == 'home' %}
                 <h1>Recent Work</h1>
@@ -41,7 +40,7 @@
             
             </header><!-- /header -->
             
-                <p class="page-description">
+                <p>
                     {% if page.button == 'about-me' %}
                     <em>
                     This is where I think out loud. 
@@ -56,7 +55,7 @@
                     {% if page.button == 'about-me' %}
                     <a href="#header" title="link to top of page"><p>back to top</p></a>
                 <p>
-                        All Rights Reserved.<br>Copyright Ian Vanhoof 2025
+                        All rights reserved. Copyright Ian Vanhoof 2025
                     </p>
                 {% elsif page.button == 'home' %}
                 <a href="#header" title="link to top of page"><p>back to top</p></a>
