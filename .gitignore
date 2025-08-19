@@ -8,3 +8,6 @@ GemFile
 GemFile.lock
 *.afdesign
 *.config
+eddie.html
+custom.css
+vpov.css
