@@ -1693,7 +1693,7 @@ h6 {
   color: #0F0E0B; }
 
 body {
-  background-color: #CDCDCD; }
+  background-color: rgba(217, 211, 199, 1.0); }
 
 body,
 p {
@@ -2120,7 +2120,7 @@ p {
 
 .moduleHeaders {
   width: 100%;
-  background-color: #333333;
+  background-color: rgba(13,13,13,1);
   border-bottom: 0.0625em solid #292929;
   margin-bottom: .5rem;
   -moz-box-shadow: 0 0.125em 0.0625em #727272;
