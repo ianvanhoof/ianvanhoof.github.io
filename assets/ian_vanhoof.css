@@ -1,6 +1,12 @@
 /* All CSS written by ME, Ian Vanhoof */
 /* many thanks to the CEL team for all that testing */
+
+:root {
+  --heading-font-family: 'Instrument Sans',Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  --body-font-family: 'Newsreader',Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
 /* column layout styles */
+
 .cel-100 {
   float: left;
   width: 100%;
@@ -1671,7 +1677,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato',Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-family: var(--heading-font-family);
   font-weight: 300;
   color: #0F0E0B; }
 
@@ -1681,7 +1687,7 @@ body {
 body,
 p {
   font-weight: 400;
-  font-family: 'Quattrocento', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-family: var(--body-font-family);
   color: #0F0E0B;
   word-wrap: break-word; }
 
@@ -1696,7 +1702,7 @@ ul li:first-child {
   padding-top: 0; }
 
 dt {
-  font-family: 'Oswald',Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-family: var(--body-font-family);
   font-size: 1.25rem;
   line-height: 1.5rem;
   font-weight: 300;
@@ -2066,7 +2072,7 @@ p {
   line-height: 1.2;
   background-color: #FFFFFF;
   color: #292929;
-  font-family: 'Oswald',Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif; }
+  font-family: var(--heading-font-family) }
 
 .cel-link-icon:after {
   content: "\21D7"; }
@@ -2636,9 +2642,9 @@ button {
     transition-timing-function: ease-in-out; }
 
   #moduleNumber {
-    margin-bottom: 1rem;
+    margin: 0 0 1rem 5.25rem;
     position: relative;
-    width: 60vw;
+    width: 70%;
     opacity: 1;
     transition-property: opacity;
     transition-duration: 1s;
