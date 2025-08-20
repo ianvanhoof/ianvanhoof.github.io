@@ -1,14 +1,3 @@
-.jekyll-cache/
-_site
-_drafts
-.sass-cache
-.jekyll-metadata
-.DS_Store
-GemFile
-GemFile.lock
-*.afdesign
-*.config
-eddie.html
-custom.css
-vpov.css
-protozoa_web_page.html
+
+
+prepros.config
