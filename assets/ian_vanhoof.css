@@ -7,14 +7,20 @@
   font-style: bold;
 }
 @font-face {
+  font-family: "grift-regular";
+  src: url("assets/type/Grift-Regular.woff2") format("woff");
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
   font-family: "stravon-normal";
-  src: url("../type/rink/Stravon-Regular.woff") format("woff");
+  src: url("type/Stravon-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 :root {
   --heading-font-family: 'grift-bold',Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-  --body-font-family: 'stravon-normal',Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  --body-font-family: 'grift-regular',Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 /* column layout styles */
 
